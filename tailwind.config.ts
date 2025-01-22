@@ -8,10 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+    },
+    backgroundImage:{
+      "intro-bg1":"url('/images/tempIntro.png')",
+      "intro-bg2":"url('/images/lexus_after.png')",
     },
   },
   plugins: [],
