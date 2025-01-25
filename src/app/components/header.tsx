@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const header = () => {
     return (
-        <div className="bg-white p-4 fixed top-0 left-0 w-full z-50">
+        <div className="bg-white p-4 fixed top-0 left-0 w-full z-50 shadow-lg">
             <nav className="flex mx-auto container items-center">
                 <h2 className="text-4xl text-blue-400 w-3/5">Kaishu Matsuo</h2>
                 <div className="space-x-8 w-1/3">

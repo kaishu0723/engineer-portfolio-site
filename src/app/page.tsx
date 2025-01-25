@@ -1,7 +1,3 @@
-//Memo
-//style
-//Image
-
 import Header from "./components/header";
 import Introduse from "./components/introduse";
 import Skill from "./components/skill";
