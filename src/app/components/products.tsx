@@ -11,28 +11,10 @@ const products = () => {
             link:"https://www.kurume-it.ac.jp/",
         },
         {
-            title:"Lexus",
-            description:"This is a lexus in TOYOTA.",
-            media:"/images/lexus_after.png",
-            link:"https://www.kurume-it.ac.jp/",
-        },
-        {
-            title:"Lexus",
-            description:"This is a lexus in TOYOTA.",
-            media:"/images/lexus_after.png",
-            link:"https://www.kurume-it.ac.jp/",
-        },
-        {
-            title:"Lexus",
-            description:"This is a lexus in TOYOTA.",
-            media:"/images/lexus_after.png",
-            link:"https://www.kurume-it.ac.jp/",
-        },
-        {
-            title:"Lexus",
-            description:"This is a lexus in TOYOTA.",
-            media:"/images/lexus_after.png",
-            link:"https://www.kurume-it.ac.jp/",
+            title:"簡易タスク帳",
+            description:"Next.jsフレームワーク学習に作成した最初のプロジェクトです。機能はタスクの追加と削除、完了状態の切り替えです。シンプルなUIで直感的に使用を意識してUI/UXデザインをしました。このプロジェクトで基本的なreact hooks(useState,useEffect)やNext.jsのルーティング、ローカルストレージを使用したデータの保存を学びました。",
+            media:"/images/to-do-list.png",
+            link:"https://to-do-list-three-sepia-97.vercel.app/",
         },
     ]
     return (
