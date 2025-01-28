@@ -15,8 +15,8 @@ export default {
       },
     },
     backgroundImage:{
-      "intro-bg1":"url('/images/tempIntro.png')",
-      "intro-bg2":"url('/images/lexus_after.png')",
+      "intro-bg":"url('/images/tempIntro.png')",
+      "start-bg":"url('/images/Preview.png')",
     },
   },
   plugins: [],

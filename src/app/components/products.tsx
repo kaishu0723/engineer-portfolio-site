@@ -10,18 +10,24 @@ const products = () => {
             media:"/images/to-do-list.png",
             link:"https://to-do-list-three-sepia-97.vercel.app/",
         },
+        {
+            title:"デモECサイト",
+            description:"Next.js、Express.js、PostgreSQLで開発したECサイト（デモ）です。",
+            media:"/images/to-do-list.png",
+            link:"https://to-do-list-three-sepia-97.vercel.app/",
+        },
     ]
     return (
         <div className="mt-10">
-            <h2 className="text-3xl text-center text-blue-400">Products</h2>
+            <h2 className="text-3xl text-center text-blue-400 mb-12">Products</h2>
             <div className="products" id="products"></div>
             {
                 products.map((product,index)=>(
-                    <a key={index} href={product.link} className="block mx-8 my-10">
+                    <a key={index} href={product.link} className="block mx-auto mb-24 container">
                         <h3 className="text-2xl">{product.title}</h3>
                         <hr className="my-4"/>
                         <div  className="flex">
-                            <div style={{position:'relative',width:'60%'}}>
+                            <div style={{position:'relative',width:'60%',height:'180px'}}>
                             <Image
                                 src={product.media}
                                 alt={product.title}
