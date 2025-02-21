@@ -22,10 +22,10 @@ const skill = () => {
                         <div key={index} className="p-4 rounded-md shadow-md my-8">
                             <h3 className="text-2xl">{skill.category}</h3>
                             <hr className="my-4"/>
-                            <ul className="my-2 flex">
+                            <ul className="my-2 flex flex-wrap">
                             {
                                 skill.items.map((item,idx)=>(
-                                    <li key={idx} className="mx-2 p-2 rounded-md bg-gray-100 shadow-sm">{item}</li>
+                                    <li key={idx} className="m-2 p-2 rounded-md bg-gray-100 shadow-sm">{item}</li>
                                 ))
                             }
                             </ul>
