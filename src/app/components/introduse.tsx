@@ -1,4 +1,8 @@
 import Image from "next/image";
+import EngineeringIcon from '@mui/icons-material/Engineering';
+import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
+import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
+import TaskIcon from '@mui/icons-material/Task';
 
 const introduse = () => {
 
@@ -16,19 +20,19 @@ const introduse = () => {
                     このページではその中のいくつかのプロジェクトを紹介しています。
                 </p> */}
                 <section className="my-4">
-                    <h4 className="text-2xl text-blue-400">Role</h4>
+                    <h4 className="text-2xl text-blue-400"><EngineeringIcon className="relative top-[-3px] mr-2"/>Role</h4>
                     <p>Software Engineer　/　Frontend Developer　/　Backend Developer</p>
                 </section>
                 <section className="my-4">
-                    <h4 className="text-2xl text-blue-400">Interests</h4>
+                    <h4 className="text-2xl text-blue-400"><ThumbUpAltIcon className="relative top-[-3px] mr-2"/>Interests</h4>
                     <p>Web Development　/　Mobile Apps　/　AI　/　Data Science</p>
                 </section>
                 <section className="my-4">
-                    <h4 className="text-2xl text-blue-400">Learning</h4>
+                    <h4 className="text-2xl text-blue-400"><LocalLibraryIcon className="relative top-[-3px] mr-2"/>Learning</h4>
                     <p>Data Base　/　API　/　Deep Learning</p>
                 </section>
                 <section className="my-4">
-                    <h4 className="text-2xl text-blue-400">Projects</h4>
+                    <h4 className="text-2xl text-blue-400"><TaskIcon className="relative top-[-3px] mr-2"/>Projects</h4>
                     <p>Cryptocurrency-dash-board　/　3D - Gallery　/　Weather-App　/　etc.</p>
                 </section>
             </div>

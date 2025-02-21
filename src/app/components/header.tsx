@@ -27,7 +27,7 @@ const Header = () => {
                         height={30}
                     />
                 </a>
-                <div className={`${visid ? "block" : "hidden"} fixed w-[100%] h-[100%] bg-black/50 left-0 top-0 trandition-all duration-300`}></div>
+                <div onClick={handleChange} className={`${visid ? "block" : "hidden"} fixed w-[100%] h-[100%] bg-black/50 left-0 top-0 trandition-all duration-300`}></div>
                 <div className={`bg-white w-[300px] min-h-screen trandition-all duration-300 fixed top-0 ${visid ? "right-0" : "right-[-300px]"}`}>
                     <a onClick={handleChange} href="#home" className="block text-center text-2xl my-[100px] hover:text-green-200 trandition-all duration-300"><b>About</b></a>
                     <a onClick={handleChange} href="#products" className="block text-center text-2xl my-[100px] hover:text-green-200 trandition-all duration-300"><b>Products</b></a>
