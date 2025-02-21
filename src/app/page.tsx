@@ -3,7 +3,7 @@ import Introduse from "./components/introduse";
 import Skill from "./components/skill";
 import Products from "./components/products";
 import Footer from "./components/footer";
-import Start from "./components/start"
+import Start from "./components/start";
 
 export default function Home() {
   return (
