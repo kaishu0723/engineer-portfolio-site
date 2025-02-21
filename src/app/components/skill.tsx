@@ -14,17 +14,18 @@ const skill = () => {
         },
     ]
     return (
-        <div className="mt-10">
-            <h2 className="text-3xl p-2 text-center text-blue-400">Skills</h2>
-            <div className="flex justify-between mx-auto container" id="skills">
+        <div className="my-[100px]">
+            <h2 className="text-6xl p-2 text-center text-blue-400">Tech Stack</h2>
+            <div className="mx-auto w-3/5" id="skills">
                 {
                     skills.map((skill,index)=>(
-                        <div key={index} className="w-1/3 p-4">
+                        <div key={index} className="p-4 rounded-md shadow-md my-8">
                             <h3 className="text-2xl">{skill.category}</h3>
-                            <ul className="my-2">
+                            <hr className="my-4"/>
+                            <ul className="my-2 flex">
                             {
                                 skill.items.map((item,idx)=>(
-                                    <li key={idx} className="list-disc ml-4 p-1">{item}</li>
+                                    <li key={idx} className="mx-2 p-2 rounded-md bg-gray-100 shadow-sm">{item}</li>
                                 ))
                             }
                             </ul>
