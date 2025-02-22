@@ -16,7 +16,7 @@ const skill = () => {
     return (
         <div className="my-[100px]">
             <h2 className="text-6xl p-2 text-center text-blue-400">Tech Stack</h2>
-            <div className="mx-auto w-3/5" id="skills">
+            <div className="mx-auto sm:w-3/5 w-4/5" id="skills">
                 {
                     skills.map((skill,index)=>(
                         <div key={index} className="p-4 rounded-md shadow-md my-8">

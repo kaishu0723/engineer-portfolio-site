@@ -9,7 +9,7 @@ const introduse = () => {
 
     return (
         <div id="home" className="w-[100%] min-h-[640px] flex mt-10">
-            <div className="trandition-all duration-300 sm:w-[50%] bg-black text-white p-10 w-[100%]">
+            <div className="trandition-all duration-300 lg:w-[50%] bg-black text-white p-10 w-[100%]">
                 <h2 className="text-6xl py-6 text-blue-400">Kaishu<br />Matsuo</h2>
                 {/* <p>
                     こんにちは！ 私は松尾海秀です。<br />
@@ -52,7 +52,7 @@ const introduse = () => {
                     </div>
                 </div>
             </div>
-            <div className="trandition-all duration-300 sm:w-[50%] relative overflow-x-hidden w-[0%]">
+            <div className="trandition-all duration-300 lg:w-[50%] relative overflow-x-hidden w-[0%]">
                 <Image
                     src={"/images/tempIntro.png"}
                     alt="bg"
