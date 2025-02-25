@@ -12,6 +12,13 @@ const products = () => {
             tools: ["TypeScript", "Next.js"],
         },
         {
+            title: "Character Counter",
+            description: "文字数をカウントするサービスです。",
+            media: "/images/character-counter.png",
+            link: "https://character-counter-seven.vercel.app/",
+            tools: ["TypeScript", "Next.js", "Tailwind CSS"],
+        },
+        {
             title: "New Project",
             description: "製作中...",
             media: "/images/comingSoon.png",
@@ -26,7 +33,7 @@ const products = () => {
                 {
                     products.map((product, index) => (
                         <li key={index}
-                        className="w-1/3 h-[320px] rounded-md shadow-lg my-10 mx-8 relative overflow-hidden bg-white bottom-0 hover:bottom-4 hover:bg-blue-100 trandition-all duration-300 min-w-[320px]">
+                        className="w-1/3 h-auto min-h-[320px] rounded-md shadow-lg my-10 mx-8 relative overflow-hidden bg-white bottom-0 hover:bottom-4 hover:bg-blue-100 trandition-all duration-300 min-w-[320px]">
                             <a href={product.link}>
                                 <div className="w-[100%] h-[120px] relative">
                                     <Image
@@ -38,9 +45,9 @@ const products = () => {
                                 </div>
                                 <h3 className="text-2xl p-4 font-medium text-black">{product.title}</h3>
                                 <p className="text-gray-400 px-4">{product.description}</p>
-                                <ul className="flex absolute bottom-4">
+                                <ul className="flex flex-wrap absolute bottom-4 w-4/5">
                                     {product.tools.map((tool, id) => (
-                                        <li key={id} className="bg-gray-100 rounded-md shadow-sm p-2 ml-4">{tool}</li>
+                                        <li key={id} className="bg-gray-100 rounded-md shadow-sm p-2 ml-4 mt-2">{tool}</li>
                                     ))}
                                 </ul>
                             </a>
