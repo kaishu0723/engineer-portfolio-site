@@ -19,6 +19,13 @@ const products = () => {
             tools: ["TypeScript", "Next.js", "Tailwind CSS"],
         },
         {
+            title: "Schedule",
+            description: "友人間で空いてる日を共有するための簡易プラットフォーム",
+            media: "/images/schedule.png",
+            link: "https://schedule-sepia.vercel.app/",
+            tools: ["TypeScript","Next.js","Tailwind CSS","FireBase"],
+        },
+        {
             title: "New Project",
             description: "製作中...",
             media: "/images/comingSoon.png",
@@ -33,7 +40,7 @@ const products = () => {
                 {
                     products.map((product, index) => (
                         <li key={index}
-                        className="w-1/3 h-auto min-h-[320px] rounded-md shadow-lg my-10 mx-8 relative overflow-hidden bg-white bottom-0 hover:bottom-4 hover:bg-blue-100 trandition-all duration-300 min-w-[320px]">
+                        className="w-1/3 h-auto min-h-[350px] rounded-md shadow-lg my-10 mx-8 relative overflow-hidden bg-white bottom-0 hover:bottom-4 hover:bg-blue-100 trandition-all duration-300 min-w-[320px]">
                             <a href={product.link}>
                                 <div className="w-[100%] h-[120px] relative">
                                     <Image
