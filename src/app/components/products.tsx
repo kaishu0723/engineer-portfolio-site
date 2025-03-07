@@ -1,8 +1,17 @@
 //memo
 //const products
+"use client"
 import Image from "next/image";
+import React from "react";
+import Masonry from "react-masonry-css";
 
 const products = () => {
+    const breakpointColumnsObj = {
+        default: 4,
+        1320: 3,
+        1000: 2,
+        680: 1,
+    };
     const products = [//I'll edit this
         {
             title: "Simple Task Note",
@@ -23,7 +32,7 @@ const products = () => {
             description: "友人間で空いてる日を共有するための簡易プラットフォーム",
             media: "/images/schedule.png",
             link: "https://schedule-sepia.vercel.app/",
-            tools: ["TypeScript","Next.js","Tailwind CSS","FireBase"],
+            tools: ["TypeScript", "Next.js", "Tailwind CSS", "FireBase"],
         },
         {
             title: "New Project",
@@ -36,7 +45,7 @@ const products = () => {
     return (
         <div className="my-[100px]">
             <h2 className="text-6xl text-center text-blue-400 mb-12">Products</h2>
-            <ul className="flex flex-wrap mx-auto w-3/5 justify-center" id="products">
+            {/* <ul className="flex flex-wrap mx-auto w-3/5 justify-center" id="products">
                 {
                     products.map((product, index) => (
                         <li key={index}
@@ -61,7 +70,37 @@ const products = () => {
                         </li>
                     ))
                 }
-            </ul>
+            </ul> */}
+            <Masonry
+                breakpointCols={breakpointColumnsObj}
+                className="flex p-8"
+                columnClassName="p-2"
+                id="products"
+            >
+                {
+                    products.map((product, index) => (
+                        <div key={index} className="w-auto h-auto min-w-[320px] min-h-[350px] my-4 rounded-md shadow-lg relative overflow-hidden bg-white bottom-0 hover:bottom-4 hover:bg-blue-100 trandition-all duration-300">
+                            <a href={product.link}>
+                                <div className="w-[100%] h-[120px] relative">
+                                    <Image
+                                        src={product.media}
+                                        alt="media"
+                                        fill
+                                        className="object-cover"
+                                    />
+                                </div>
+                                <h3 className="text-2xl p-4 font-medium text-black">{product.title}</h3>
+                                <p className="text-gray-400 px-4">{product.description}</p>
+                                <ul className="flex flex-wrap absolute bottom-4 w-4/5">
+                                    {product.tools.map((tool, id) => (
+                                        <li key={id} className="bg-gray-100 rounded-md shadow-sm p-2 ml-2 mt-2">{tool}</li>
+                                    ))}
+                                </ul>
+                            </a>
+                        </div>
+                    ))
+                }
+            </Masonry>
         </div>
     );
 }
