@@ -12,6 +12,7 @@ export default function Home() {
       <Header/>
       <Introduse />
       <Products />
+      <hr />
       <Skill />
       <Footer/>
     </div>
