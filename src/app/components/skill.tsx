@@ -19,12 +19,12 @@ const skill = () => {
     ]
     return (
         <div className="my-[100px]">
-            <h2 className="text-6xl p-2 text-center text-blue-400">Tech Stack</h2>
+            <h2 className="text-6xl p-2 text-center gText">Tech Stack</h2>
             <div className="mx-auto sm:w-3/5 w-4/5" id="skills">
                 {
                     skills.map((skill,index)=>(
                         <div key={index} className="p-4 rounded-md shadow-md my-8">
-                            <h3 className="text-2xl">{skill.category}</h3>
+                            <h3 className="text-2xl gText inline-block">{skill.category}</h3>
                             <hr className="my-4"/>
                             <ul className="my-2 flex flex-wrap">
                             {

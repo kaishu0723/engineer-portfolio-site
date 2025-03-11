@@ -15,7 +15,7 @@ const Start = () => {
             <div className="w-[100%]">
                 <h1 className="w-[100%] h-1/2 text-6xl text-center text-white">Kaishu.dev</h1>
                 <div className="bg-white w-4/5 h-[10px] mx-auto flex items-center rounded-lg my-4">
-                    <div className={`bg-blue-600 w-4/5 h-[8px] ml-[1px] rounded-lg`}></div>
+                    <div className={`gBack w-[80%] h-[8px] ml-[1px] rounded-lg transition-all duration-[300ms]`}></div>
                 </div>
             </div>
         </div>
