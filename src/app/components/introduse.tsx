@@ -43,7 +43,7 @@ const introduse = () => {
                     </div>
                 </div>
             </div>
-            <div className="trandition-all duration-300 lg:w-[50%] lg:h-auto lg:relative lg:right-0 lg:top-0 lg:rounded-none overflow-x-hidden absolute right-4 top-[90px] w-[200px] h-[200px] rounded-full">
+            <div className="trandition-all duration-300 lg:w-[50%] lg:h-auto lg:relative lg:right-0 lg:top-0 lg:rounded-none overflow-x-hidden absolute right-4 top-[90px] sm:w-[200px] sm:h-[200px] w-[120px] h-[120px] rounded-full">
                 <Image
                     src={"/images/tempIntro.png"}
                     alt="bg"
