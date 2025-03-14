@@ -30,7 +30,7 @@ const introduse = () => {
                         </section>
                         <section className="my-4">
                             <h4 className="text-2xl gText"><ThumbUpAltIcon style={{ color: '#FF64FF' }} className="relative top-[-3px] mr-2" />Interests</h4>
-                            <p>Web Development　/　Mobile Apps　/　AI　/　Data Science</p>
+                            <p>Web Development　/　Mobile Apps　/　AI　/　Data Analyst</p>
                         </section>
                         <section className="my-4">
                             <h4 className="text-2xl gText"><LocalLibraryIcon style={{ color: '#FF64FF' }} className="relative top-[-3px] mr-2" />Learning</h4>
