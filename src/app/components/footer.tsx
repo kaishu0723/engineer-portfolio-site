@@ -1,7 +1,9 @@
 const footer = () => {
     return (
         <div className="bg-black text-white p-4">
-            <h3 className="gText text-2xl text-center mt-4">Kaishu Matsuo</h3>
+            <div className="flex">
+                <h3 className="gText text-2xl text-center mt-4 mx-auto inline-block">Kaishu Matsuo</h3>
+            </div>
             <p className="text-center">
                 A collage student who be learning infomation technology.
             </p>
