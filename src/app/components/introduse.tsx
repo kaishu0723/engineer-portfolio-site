@@ -15,12 +15,11 @@ const introduse = () => {
                     <section className="my-4 sm:w-1/2">
                         <h4 className="text-2xl gText"><AssignmentIndIcon style={{ color: '#FF64FF' }} className="relative top-[-3px] mr-2" />About me</h4>
                         <p>
-                            松尾海秀は久留米工業大学で情報工学を学んでいる。<br />
-                            主に3DCGやフロントエンド開発を得意としているが、<br />
-                            バックエンドやデータベース、AIにも力を入れている。<br />
-                            これまで大学の講義で学んだことを生かして、3DCG作品やウェブサイト製作、
-                            「作品１」などに取り組んできた。<br />
-                            このページではその中のいくつかのプロジェクトを紹介している。
+                            こんにちは、松尾海秀です。<br />
+                            私は現在、久留米工業大学で情報工学を学んでいます。<br />
+                            得意分野は3DCG、フロントエンド開発、データベース操作、AIです。<br />
+                            大学で学んだことを生かして、簡易タスク帳や文字数カウント、ゲーム開発などをしてきました。<br />
+                            その中のいくつかをこのページでは紹介しています。
                         </p>
                     </section>
                     <div className="my-4 sm:w-1/2">
@@ -38,7 +37,7 @@ const introduse = () => {
                         </section>
                         <section className="my-4">
                             <h4 className="text-2xl gText"><TaskIcon style={{ color: '#FF64FF' }} className="relative top-[-3px] mr-2" />Projects</h4>
-                            <p>Cryptocurrency-dash-board　/　3D - Gallery　/　Weather-App　/　etc.</p>
+                            <p>To Do List　/　Character Counter　/　Schedule　/　etc.</p>
                         </section>
                     </div>
                 </div>

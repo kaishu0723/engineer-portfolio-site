@@ -2,15 +2,15 @@ const skill = () => {
     const skills=[
         {
             category:"Programming Languages",
-            items:["HTML/CSS","JavaScript","TypeScript","Python","Java","C#","C/C++","GO","Kotlin","Swift","Dart"],
+            items:["HTML/CSS","JavaScript","TypeScript","Python","C#","C/C++"],
         },
         {
             category:"Frameworks & Libraries",
-            items:["React","Next.js","Tailwind CSS","Masonry CSS","AR.js","Three.js","Flutter"],
+            items:["React","Next.js","Tailwind CSS","Masonry CSS","Three.js"],
         },
         {
             category:"Tools & Platforms",
-            items:["Git/GitHub","VS Code","Unity","Unreal Engine","AWS","Azure","FireBase"],
+            items:["Git/GitHub","VS Code","Unity","Unreal Engine"],
         },
         {
             category:"License",
